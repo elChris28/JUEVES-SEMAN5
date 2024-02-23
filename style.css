@@ -1,0 +1,70 @@
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+body{
+    background-color: gray;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.FlexContainer{
+    border: 1px solid white;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.flexItems{
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.MENU-list 
+{
+display: flex;
+justify-content: space-around;
+
+}
+
+.MENU-items{
+    list-style: none;
+}
+
+.MENU-list a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+    color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.MENU-list a:hover{
+    background: skyblue ;
+    color: white;
+}
